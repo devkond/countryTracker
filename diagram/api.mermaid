@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant Client
+    participant API
+
+    Client->>API: HTTP GET request
+
+    Note over API: Handle the request and<br>fetch country data
+
+    API-->>API: Process the data
+
+    Note over API: Prepare and format<br>the response data as JSON
+
+    API-->>Client: Response with country data (JSON)
