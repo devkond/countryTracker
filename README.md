@@ -17,7 +17,7 @@ To install and run the **country tracker**, follow these steps:
 * 💻 Open a terminal or command prompt and navigate to the directory where the project is located.
 * 📦 Install the required dependencies by running the following command:
 ```bash
-                                          pip install requirements.txt
+                                        pip install requirements.txt
 ```
 ## How to Use
 
@@ -25,7 +25,7 @@ To install and run the **country tracker**, follow these steps:
 
 `2.` Run the **`tracker.py`** script by executing the following command:
 ```bash
-                                              python tracker.py
+                                           python tracker.py
 ```
 
 `3.` Enter the name of the country you want to get information about.
