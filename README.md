@@ -36,7 +36,7 @@ To install and run the **country tracker**, follow these steps:
 
 > `✅` The information about the country will be displayed on the screen.
 
-# ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤSequence diagram
+# ㅤㅤㅤㅤㅤㅤㅤㅤSequence diagram
 > ![mermaid-diagram-2023-06-28-042825](https://github.com/devkond/countryTracker/assets/137844947/3ad4e31c-1a32-484e-a988-22eeefd01c52 "Hello")
 
 
