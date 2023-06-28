@@ -1,5 +1,5 @@
 # Country 🌍 Tracker 
-📝 
+📝 A Simple Python project that displays information about a country by entering their name.
 # Preview
 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ![Screenshot 2023-06-28 010817](https://github.com/devkond/countryTracker/assets/137844947/8503b5be-f80c-4722-88e4-da26f66c519b)
 
