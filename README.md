@@ -1,7 +1,23 @@
 # Country 🌍 Tracker 
-📝 A Simple Python project that displays information about a country by entering their name.
+
+In this Python project, the main purpose is to collect data from the REST Countries API (https://restcountries.com/) and use it to display information about a country based on the user's input. By entering the name of a country, the project will make an API request to retrieve relevant data such as the country's capital, population, region, subregion, and languages spoken.
+
+To implement this project, we will utilize the requests library in Python. This library allows us to send HTTP requests and handle the API responses. With the retrieved data, we can then present it in a user-friendly format to provide insights about the selected country.
+
 # Preview
 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ![Screenshot 2023-06-28 010817](https://github.com/devkond/countryTracker/assets/137844947/8503b5be-f80c-4722-88e4-da26f66c519b)
+
+## Tools Used
+
+Here are the tools used in the development of the Project Tracker:
+
+- 📅 [Monday](https://monday.com): A project management tool used to fetch project data and update the tracker.
+
+- 🧜‍♀️ [Mermaid.js](https://mermaid-js.github.io/mermaid/): A JavaScript library used for visualizing project progress and generating insightful reports.
+
+- 🐍 [Python](https://www.python.org/): The programming language used for building the Project Tracker.
+
+- ✨ [VS Code](https://code.visualstudio.com/): A popular code editor used for developing and customizing the project tracker.
 
 ## Requirements
 
@@ -9,38 +25,42 @@
 
 - ⚙️ Python 3.11.4 installed on your system.
 
-## How to Install
-
-To install and run the **country tracker**, follow these steps:
-
-* 📥 Download or clone this repository to your local machine.
-* 💻 Open a terminal or command prompt and navigate to the directory where the project is located.
-* 📦 Install the required dependencies by running the following command:
-```bash
-                                        pip install requirements.txt
-```
+- 🌐 Internet connection
 ## How to Use
 
-`1.` Open a terminal or command prompt and navigate to the directory where the project is located.
-
-`2.` Run the **`tracker.py`** script by executing the following command:
-```bash
-                                            python tracker.py
+1. Clone the repository:
+```shell
+git clone https://github.com/devkond/countryTracker.git
+```
+2. Navigate to the project directory:
+```shell
+cd countryTracker
+```
+3. Set up a virtual environment using venv:
+```shell
+python -m venv venv
+```
+4. Activate the virtual environment:
+- On Windows:
+  ```
+  venv\Scripts\activate
+  ```
+- On macOS and Linux:
+  ```
+  source venv/bin/activate
+  ```
+5. Install the required dependencies:
+```shell
+pip install -r requirements.txt
+```
+6. Run the tracker:
+```shell
+python tracker.py
 ```
 
-`3.` Enter the name of the country you want to get information about.
-
-`4.` Press Enter to fetch the country information.
-
-<br></br>
-
-> `✅` The information about the country will be displayed on the screen.
 
 # ㅤㅤㅤㅤㅤㅤㅤㅤSequence diagram
 > ![mermaid-diagram-2023-06-28-042825](https://github.com/devkond/countryTracker/assets/137844947/3ad4e31c-1a32-484e-a988-22eeefd01c52 "Hello")
 
-
-> ⚙️ API Used: https://restcountries.com/
-   
 # Developers
 > * **[devkond](https://github.com/devkond)**
