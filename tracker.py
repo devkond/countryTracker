@@ -1,21 +1,16 @@
-# import requests to use an api
+# import requests to use an API
 import requests
 import os
 
 def search(name):
-    return "Dados..."
-
-if __name__=="__main__":
     try:
         print("=" * 21)
-        name = input("Choose an country by their name: ") 
         os.system("cls")
 
-    # Verify if theres an input
         if name:
-            # define url
+            # Define URL
             url = f"https://restcountries.com/v3/name/{name}"
-            # get url informations
+            # Get URL information
             response = requests.get(url)
             data = response.json()
 
@@ -33,11 +28,11 @@ if __name__=="__main__":
                 print(f"Country Code: {country['cca2']}")
                 print("=" * 21)
             else:
-                # If dont exist no country with input name, then show this
+                # If no country exists with the input name, then show this
                 print("No country was found with this name.")
         else:
-            print("Provide an country name.")
+            print("Provide a country name.")
 
     except Exception as ex:
-        # To prevent mistakes
+        # To handle errors
         print(f"ERROR: {ex}")

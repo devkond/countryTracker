@@ -1,5 +1,5 @@
 import tracker
 
 if __name__ == "__main__":
-    data = tracker.search("nome")
-    print(data)
+    name = input("Choose a country by its name: ")
+    tracker.search(name)
