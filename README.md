@@ -61,4 +61,4 @@ python tracker.py
 ```
 
 # Developers
-> * **[devkond](https://github.com/devkond)**
+* [devkond](https://github.com/devkond)
