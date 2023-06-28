@@ -4,8 +4,10 @@ In this Python project, the main purpose is to collect data from the REST Countr
 
 To implement this project, we will utilize the requests library in Python. This library allows us to send HTTP requests and handle the API responses. With the retrieved data, we can then present it in a user-friendly format to provide insights about the selected country.
 
-# Preview
-ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ![Screenshot 2023-06-28 010817](https://github.com/devkond/countryTracker/assets/137844947/8503b5be-f80c-4722-88e4-da26f66c519b)
+| Software | API |
+| --- | --- |
+| ![Software](demo/software.gif) | ![API](demo/api.png) |
+
 
 ## Tools Used
 
@@ -57,10 +59,6 @@ pip install -r requirements.txt
 ```shell
 python tracker.py
 ```
-
-
-# ㅤㅤㅤㅤㅤㅤㅤㅤSequence diagram
-> ![mermaid-diagram-2023-06-28-042825](https://github.com/devkond/countryTracker/assets/137844947/3ad4e31c-1a32-484e-a988-22eeefd01c52 "Hello")
 
 # Developers
 > * **[devkond](https://github.com/devkond)**
