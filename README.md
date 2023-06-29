@@ -4,10 +4,8 @@ In this Python project, the main purpose is to collect data from the REST Countr
 
 To implement this project, we will utilize the requests library in Python. This library allows us to send HTTP requests and handle the API responses. With the retrieved data, we can then present it in a user-friendly format to provide insights about the selected country.
 
-| Software | API |
-| --- | --- |
-| ![Software](demo/software.gif) | ![API](demo/api.png) |
-
+![Software](demo/software.gif)
+![API](demo/api.png)
 
 ## Tools Used
 
