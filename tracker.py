@@ -2,16 +2,16 @@
 import requests
 import os
 
-def search(name):
+api = "https://restcountries.com/v3/name/{}"
+
+def search_and_display(name):
     try:
         print("=" * 21)
         os.system("cls")
 
         if name:
-            # Define URL
-            url = f"https://restcountries.com/v3/name/{name}"
             # Get URL information
-            response = requests.get(url)
+            response = requests.get(api.format(name))
             data = response.json()
 
             if data:
