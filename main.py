@@ -1,5 +1,7 @@
-import tracker
+from tkinter import Tk
+from gui import CountryTrackerGUI
 
 if __name__ == "__main__":
-    name = input("Choose a country by its name: ")
-    tracker.search_and_display(name)
+    window = Tk()
+    app = CountryTrackerGUI(window)
+    window.mainloop()
