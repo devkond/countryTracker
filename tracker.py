@@ -4,6 +4,12 @@ import os
 
 api = "https://restcountries.com/v3/name/{}"
 
+def search(name):
+    response = requests.get(api.format(name))
+    if (response.status_code==200):
+        return response.json()
+    return False
+
 def search_and_display(name):
     try:
         print("=" * 21)
@@ -11,8 +17,7 @@ def search_and_display(name):
 
         if name:
             # Get URL information
-            response = requests.get(api.format(name))
-            data = response.json()
+            data = search(name)
 
             if data:
                 # Pick just the first information
