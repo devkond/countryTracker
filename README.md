@@ -57,7 +57,7 @@ pip install -r requirements.txt
 ```
 6. Run the tracker:
 ```shell
-python tracker.py
+python main.py
 ```
 
 # Developers
